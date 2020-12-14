@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	width:1000px;
+	margin: auto;
+	
+}
+header{
+	background-color:#364f6b;
+	color:white;
+	padding:5px;
+	text-align: center;
+	
+}
+
+nav{
+	background-color:#3fc1c9;
+	text-align: center
+	
+	
+	
+}
+a{
+	display:inline-block;
+	background-color:#3fc1c9;
+	color:white;
+	padding:5px;
+	
+}
+a:hover{
+	background-color:#333D79FF;
+	color:grey;
+	
+}
+div{
+	display:block;
+	background-color: #8ABAD3FF;
+	float:left;
+	width:150px;
+	height:500px;
+	
+}
+
+article{
+	width:700px;
+	height:500px;
+	float:left;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color:white;
+	
+	
+}
+
+footer{
+	display: inline-block;
+	background-color: #364f6b;
+	color:white;
+	width:100%;
+	padding:5px;
+	text-align: center;
+	
+}
